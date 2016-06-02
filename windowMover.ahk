@@ -30,7 +30,7 @@
 		
 		openMultitaskingViewFrame()
 		send("{tab " numberOfTabsNeededToSelectActiveMonitor "}")
-		send("{Appskey}m{Down " numberOfDownsNeededToSelectDesktop "}{Enter}")
+		send("{Appskey}{Down 3}{Enter}{Down " numberOfDownsNeededToSelectDesktop "}{Enter}")
 		closeMultitaskingViewFrame()
 		this.doPostMoveWindow()
 		
